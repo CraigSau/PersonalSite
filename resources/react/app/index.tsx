@@ -11,7 +11,7 @@ import Footer from 'components/shared/footer';
 import * as ROUTES from 'constants/routes';
 import NotFound from './404';
 
-export default () => (
+const App = () => (
   <Fragment>
     <Header />
     <Switch>
@@ -26,3 +26,5 @@ export default () => (
     <Footer />
   </Fragment>
 );
+
+export default App;

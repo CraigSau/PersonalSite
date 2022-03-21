@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import Resume from '../public/assets/CraigSauersResume2022.pdf';
 
 export default () => (
-  <div className="bg-dark" style={{ paddingLeft: '1rem', paddingRight: '1rem' }}>
+  <div className="sticky-nav-bar bg-dark" style={{ paddingLeft: '1rem', paddingRight: '1rem' }}>
     <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
       <Link to="/">
         <a className="navbar-brand d-flex align-items-center mb-2 mb-md-0 text-light" href="javascript">
-          <img src="Website/public/Assets/personalsite.ico" alt="Craig Sauers" width="=50rem" height="50rem" />
+          <img src="Website/public/Assets/personalsite.ico" alt="CS" width="=50rem" height="50rem" />
         </a>
       </Link>
       <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 nav-center">
