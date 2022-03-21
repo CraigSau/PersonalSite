@@ -21,6 +21,12 @@ main {
   height: 91vh;
 }
 
+.sticky-nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
 
 /* Timeline Styles */
 .timeline-container {

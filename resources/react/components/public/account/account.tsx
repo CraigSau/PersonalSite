@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default () => (
   <div className="container rounded bg-dark mt-5">
     <div className="row">
-      <div className="col-md-4 border-right">
+      <div className="page-cont col-md-4 border-right">
         <div className="d-flex flex-column align-items-center text-center p-3">
           <img className="rounded-circle mt-5" src="/#" alt="profile img" width="90" />
         </div>

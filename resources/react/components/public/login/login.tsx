@@ -8,13 +8,14 @@ export default () => {
   const [password, setPassword] = useState('');
 
   function validateForm() {
-    // TO-DO: validate credentials exist in database
     const regEx = /(.+)@(.+){2,}\.(.+){2,}/;
     if (regEx.test(email.toLowerCase()) && password.length >= 8) {
       return true;
     }
     return false;
   }
+
+  // TO-DO: validate credentials exist in database
 
   // TO-DO: backend connection
 
